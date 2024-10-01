@@ -1,0 +1,41 @@
+.item {
+    display: flex;
+    background-color: #53bdc4;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.item div button {
+    background-color: #ffffff;
+    color: #53bdc4;
+    border: 2px solid transparent; 
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.bgGreen {
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.bgGreen:hover {
+    background-color: rgb(0, 247, 119);
+    color: #ffffff;
+    border-color: #4a4d4e;
+}
+
+.bgRed {
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.bgRed:hover {
+    background-color: rgb(212, 53, 53);
+    color: #ffffff;
+    border-color: #4a4d4e; 
+}

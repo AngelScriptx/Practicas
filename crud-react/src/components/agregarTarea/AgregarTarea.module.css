@@ -1,0 +1,28 @@
+.bgBlu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #53bdc4;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.bgBlu button, input {
+    padding: 0;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+.bgBlu button{
+    background-color: #fff;
+    color: #53bdc4;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bgBlu button{
+
+}
