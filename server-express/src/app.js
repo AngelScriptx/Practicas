@@ -17,3 +17,4 @@ app.use('/api', routes);
 const puerto = 3000
 
 app.listen(puerto, ()=> console.log(`servidor en puerto ${puerto}`))
+
