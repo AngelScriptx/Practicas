@@ -312,5 +312,9 @@ sup {
 }
 
 #module_0_MMM-EstadoModule{
-  grid-row: 2/6;
+  grid-row: 2/3;
+}
+.containStats{
+  display: flex;
+  justify-content: space-evenly;
 }

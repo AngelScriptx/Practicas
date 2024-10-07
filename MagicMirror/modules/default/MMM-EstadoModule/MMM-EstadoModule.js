@@ -20,6 +20,7 @@ Module.register("MMM-EstadoModule", {
 
     getDom: function() {
         var wrapper = document.createElement("div");
+        wrapper.className = 'containStats'
         wrapper.innerHTML = `<strong>${this.config.name}`
         // Si los datos aún no están disponibles, mostrar "Cargando"
         if (this.estado1 === null || this.estado2 === null || this.estado3 === null) {
@@ -29,9 +30,9 @@ Module.register("MMM-EstadoModule", {
 
         // Mostrar los tres estados recibidos desde la URL
         wrapper.innerHTML += `
-            <div> Mode:</strong> ${this.estado1}</div>
-            <div> Status :</strong> ${this.estado2}</div>
-            <div> Internet:</strong> ${this.estado3}</div>
+            <div> Mode:</strong> <br>${this.estado1}</div>
+            <div> Status :</strong> <br>${this.estado2}</div>
+            <div> Internet:</strong> <br>${this.estado3}</div>
         `;
 
         return wrapper;
